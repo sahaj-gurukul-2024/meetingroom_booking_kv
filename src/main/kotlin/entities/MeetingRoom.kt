@@ -1,3 +1,3 @@
 package org.example.entities
 
-class MeetingRoom (val id:Int, val bookings: List<Booking>)
+data class MeetingRoom (val id:Int, val floor: Int, val bookings: List<Booking>)
